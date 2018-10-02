@@ -1,1 +1,2 @@
-# uxdev-challenge-1
+# uxdev-challenge
+repository used for uxdev weekly coding challenges
