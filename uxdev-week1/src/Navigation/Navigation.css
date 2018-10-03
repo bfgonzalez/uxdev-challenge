@@ -3,3 +3,9 @@
   height: 100vh;
   background: #252525;
 }
+
+.NavItem {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
