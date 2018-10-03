@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 .Navigation {
   width: 14rem;
@@ -8,10 +8,14 @@
 
 .NavItem {
   color: white;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 1rem;
   padding: 1.5rem 1rem;
-  border: 1px solid white;
   text-align: left;
+  cursor: pointer;
+}
+
+.NavItem:hover {
+  background: red;
 }
