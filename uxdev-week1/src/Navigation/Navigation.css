@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .Navigation {
-  width: 14rem;
+  width: 15rem;
   height: 100vh;
   background: #252525;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav-section {
+  height: 5rem;
+  width: 13rem;
+  padding-left: 2rem;
+  margin: auto;
+}
+
+.nav-section:hover {
+  background: red;
 }
 
 .NavItem {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  padding: 1.5rem 1rem;
-  text-align: left;
-  cursor: pointer;
+  line-height: 5rem;
+  padding-left: 1rem;
+  display: flex;
 }
 
-.NavItem:hover {
-  background: red;
+.fas {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  /* margin-right: 1rem; */
+  float: left;
 }
