@@ -6,8 +6,10 @@ class Navigation extends Component {
     return (
       <nav className="Navigation">
         <div className="nav-section">
-          <i class="fas fa-chart-area"></i>
-          <NavItem label="Dashboard"/>
+          <span>
+            <i class="fas fa-chart-area"></i>
+            <NavItem label="Dashboard"/>
+          </span>
         </div>
 
         <div className="nav-section">
